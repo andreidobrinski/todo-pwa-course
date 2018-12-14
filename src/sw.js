@@ -22,4 +22,9 @@ workbox.routing.registerRoute(
   })
 )
 
+workbox.routing.registerRoute(
+  new RegExp('http://.*:8080.*\.json'),
+  workbox.strategies.networkFirst()
+)
+
 workbox.precaching.precacheAndRoute(self.__precacheManifest || [])
