@@ -5,7 +5,7 @@ workbox.clientsClaim()
 self.addEventListener('install', event => {
   const asyncInstall = new Promise(resolve => {
     console.log("Waiting to resolve...")
-    setTimeout(resolve, 5000)
+    setTimeout(resolve, 1000)
   })
 
   event.waitUntil(asyncInstall)
