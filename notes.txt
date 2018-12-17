@@ -1,0 +1,5 @@
+On an input tag, add a `capture` prop to default to camera instead of photos.
+capture="user" defaults to the front-facing camera
+
+check to support camera: 'mediaDevices' in navigator
+ask permission: navigator.mediaDevices.getUserMedia({ video: true })
