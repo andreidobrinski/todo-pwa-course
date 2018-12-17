@@ -3,3 +3,8 @@ capture="user" defaults to the front-facing camera
 
 check to support camera: 'mediaDevices' in navigator
 ask permission: navigator.mediaDevices.getUserMedia({ video: true })
+
+ios splash screen:
+- needs special image sizes in public folder
+- specify each image size in index.HTML
+- remove background_color in manifest.json
