@@ -1,3 +1,5 @@
+Repo for following this awesome egghead [course](https://egghead.io/courses/progressive-web-apps-in-react-with-create-react-app)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
